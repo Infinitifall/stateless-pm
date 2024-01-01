@@ -1,33 +1,31 @@
 # Stateless Password Manager
 
-***Warning: Proof of concept only! Do not use this as your password manager. You have been warned.***
-
 A password manager without any storage (stateless). Passwords are generated from scratch each time, given a Website domain / App name and a master password. The process is deterministic and will produce the same password at any time and on any device.
 
 - Smaller attack surface - there is nothing to hack
 - No password syncing - there is nothing to sync
 
 
-## Install on Windows
+## Install
 
-1. Have [Python](https://www.python.org/downloads/) installed
-2. [Download stateless-pm](https://github.com/Infinitifall/stateless-pm/archive/refs/heads/main.zip) and unzip the folder
-3. Double click on `run_on_windows.bat`
-
-
-## Install on Linux/macOS/BSD
-
-```bash
-# clone repo
-git clone https://github.com/Infinitifall/stateless-pm
-cd stateless-pm
-
-# run
-./run_on_linux.sh
-```
+- **Windows**
+    1. Have [Python](https://www.python.org/downloads/) installed
+    2. [Download stateless-pm](https://github.com/Infinitifall/stateless-pm/archive/refs/heads/main.zip) and unzip the folder
+    3. Double click on `run_on_windows.bat`
 
 
-## Examples
+- **Linux/macOS/BSD**
+    ```bash
+    # clone repo
+    git clone https://github.com/Infinitifall/stateless-pm
+    cd stateless-pm
+    
+    # run
+    ./run_on_linux.sh
+    ```
+
+
+## Run
 
 - Generating a password for a website
     ```
